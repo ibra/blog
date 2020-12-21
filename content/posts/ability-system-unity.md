@@ -44,7 +44,7 @@ First of all, this line:
 ```csharp 
 public abstract class Ability : ScriptableObject
 ```
-This class is basically deriving from ScriptableObject. If you dont know what a ScriptableObject is, i'd recommend watching [this video](https://www.youtube.com/watch?v=aPXvoWVabPY) from Brackeys. If you know a bit about scriptable objects you might be wondering why we **arent** using the CreateAssetMenu attribute. 
+This class is basically deriving from ScriptableObject. If you dont know what a ScriptableObject is, I'd recommend watching [this video](https://www.youtube.com/watch?v=aPXvoWVabPY) from Brackeys. If you know a bit about scriptable objects you might be wondering why we **aren't** using the CreateAssetMenu attribute. 
 
 e.g:
 ```csharp
