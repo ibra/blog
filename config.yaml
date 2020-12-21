@@ -1,0 +1,122 @@
+baseURL: "https://ibrahim.thedev.id/"
+title: "Ibra's Notebook"
+paginate: 8
+theme: "hugo-PaperMod"
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10
+
+        menu:
+            main:
+                - name: Archive
+                  url: archives/
+                  weight: 5
+                - name: Tags
+                  url: tags
+                  weight: 10
+                - name: Categories
+                  url: categories
+                  weight: 10
+                - name: Series
+                  url: series
+                  weight: 10
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production
+    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+    author: Theme PaperMod
+    # author: ["Me", "You"] # multiple authors
+    ShowReadingTime: true
+    defaultTheme: auto
+    ShowShareButtons: true
+    displayFullLangName: true
+    # images: ""
+    # assets:
+    #   favicon: '<path / external url>'
+
+    profileMode:
+        enabled: false
+        title: Ibra's Notebook
+        imageUrl: "#"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+            - name: Archives
+              url: archives
+            - name: Tags
+              url: tags
+
+    homeInfoParams:
+        Title: "Ibra's Notebook"
+        Content: >
+            Welcome to my blog-ish journal where I note random stuff down
+
+            - Ill try to make some proper posts too though :p
+
+    socialIcons:
+        - name: twitter
+          url: "https://twitter.com/minidevz"
+        - name: youtube
+          url: "https://youtube.com/minidevs"
+        - name: github
+          url: "https://github.com/minidevz"
+        - name: discord
+          url: "https://discord.gg/nCerNRh"
+
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
