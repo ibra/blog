@@ -3,7 +3,7 @@ author: "Ibrahim"
 title: "Hello!"
 date: "2020-12-20"
 categories: ["General"]
-description: "A brief description of Hugo Shortcodes"
+description: "Hello everyone!"
 tags: ["Announcement"]
 ShowToc: false
 ---
