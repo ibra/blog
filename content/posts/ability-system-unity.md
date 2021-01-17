@@ -8,7 +8,6 @@ tags: ["Unity","Tutorial"]
 ShowToc: false
 ---
 
-## Introduction
 Over the past few days, ive been working on *YourShot's* Ability system. I tried looking online and there theres not really enough information for a newbie to make an informed decision about how they should approach going about this. In the end I personally settled on a mix of inheritance and scriptable objects. The two objectives for this Ability System for me personally were:
 
  - Making sure that any sort of ability can be created with the system.
