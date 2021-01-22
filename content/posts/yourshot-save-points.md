@@ -3,7 +3,7 @@ author: "Ibrahim"
 title: "How I Added Save Points to YourShot"
 date: "2021-01-17"
 categories: ["YourShot"]
-description: "A quick brief of how I added save points to my unity game"
+description: "A quick brief of how I added save points to YourShot."
 tags: ["Unity","YourShot"]
 ShowToc: false
 ---
