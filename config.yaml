@@ -77,9 +77,7 @@ params:
     homeInfoParams:
         Title: "Ibra's Notebook"
         Content: >
-            Welcome to my blog-ish journal where I note random stuff down
-
-            - Ill try to make some proper posts too though :p
+            Welcome to my blog which is mostly goes in-depth into the development behind YourShot which I dont usually cover in devlogs.
 
     socialIcons:
         - name: twitter
