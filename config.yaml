@@ -1,5 +1,5 @@
 baseURL: "https://ibrahim.thedev.id/"
-title: "Ibra's Notebook"
+title: "YourShot Devblog"
 paginate: 8
 theme: "hugo-PaperMod"
 enableInlineShortcodes: true
@@ -50,8 +50,8 @@ outputs:
 
 params:
     env: production
-    description: "A journal-ish blog where I will constantly ramble"
-    author: "Ibrahim H."
+    description: "A blog which goes in-depth into the development behind YourShot which I dont usually cover in devlogs among other stuff."
+    author: "Ibrahim"
     # author: ["Me", "You"] # multiple authors
     ShowReadingTime: true
     defaultTheme: auto
